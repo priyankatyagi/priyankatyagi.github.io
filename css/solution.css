@@ -16,37 +16,38 @@ body{
  	width: 100%;
 }
 
-.section-title{
+section div{
 	position: absolute;
 	border: 1px solid black;
 	right: 0px;
 	top: -1px;
 	padding: 5px;
-	color: black;
-	
+	color: black;	
 }
 
 .section-title1{
 	background: coral; 
+	font-weight: bold;
 
 }
 .section-title2{
 	background: darkorange; 
-
+	font-weight: bold;
 }
 .section-title3{
-	background: brown; 
-
+	background: brown;
+	font-weight: bold; 
 }
 
 section{
 	margin-right: auto;
 	margin-left: auto;
 	padding: 10px;
-	margin-top: 15px;
+	margin-top: 20px;
 	font-size: 0.8em;
 	width: 90%; 
-	color: darkcyan; 
+	color: darkcyan;
+	font-family: "Comic Sans MS"; 
 }
 @media(min-width:992px){
 	.col-lg-4{
@@ -75,7 +76,7 @@ section{
  		width: 45%;
  	}
  	.col-md-1{
- 		width: 95%;
+ 		width: 93%;
  	}
 }
 
