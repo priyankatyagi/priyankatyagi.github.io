@@ -1,0 +1,92 @@
+<style>
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	margin-bottom: 15px; 
+	text-align: center;
+}
+
+body{
+	display: block;
+	margin: 8px;
+}
+.row{
+ 	width: 100%;
+}
+
+.section-title{
+	position: absolute;
+	border: 0.5px solid black;
+	right: 0px;
+	top: -1px;
+	padding: 5px;
+	color: black;
+	
+}
+
+.section-title1{
+	background: coral; 
+
+}
+.section-title2{
+	background: darkorange; 
+
+}
+.section-title3{
+	background: brown; 
+
+}
+
+section{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	margin-top: 15px;
+	font-size: 0.8em;
+	width: 90%; 
+	color: darkcyan; 
+}
+@media(min-width:992px){
+	.col-lg-4{
+		position: relative;
+		float: left;
+		border: 1px solid black;
+		margin: 10px;
+		background-color: bisque;
+	}
+ 
+	.col-lg-4{
+		width: 30%;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+ 	.col-md-2, .col-md-1{
+ 		float: left;
+ 		border: 1px solid black;
+ 		margin: 10px;
+ 		position: relative;
+ 		background-color: bisque;
+ 	}
+ 
+ 	.col-md-2{
+ 		width: 45%;
+ 	}
+ 	.col-md-1{
+ 		width: 95%;
+ 	}
+}
+
+@media(max-width: 767px){
+ 	.col-sm-1{
+ 		float: left;
+ 		border: 1px solid black;
+ 		margin: 10px;
+ 		position: relative;
+ 		background-color: bisque;
+ 	}	
+}
+
+</style>
